@@ -1,0 +1,107 @@
+/* Define estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para itens do menu de navegação */
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Estilo para os links do menu */
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+main a {
+    color: #66c2ff; /* Cor do texto dos links no conteúdo principal */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #2e2e2e;
+    color: #dcdcdc;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os rótulos do formulário */
+form label {
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+
+/* Estilo para os campos de entrada e textarea */
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #3b3b3b;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* Estilo para o botão de envio */
+form button {
+    padding: 10px;
+    background-color: #4a4a4a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de envio ao passar o mouse */
+form button:hover {
+    background-color: #5a5a5a;
+}
+
+/* Estilo para a seção que contém imagem e texto */
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Estilo para a imagem decorativa */
+.flex-container img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
